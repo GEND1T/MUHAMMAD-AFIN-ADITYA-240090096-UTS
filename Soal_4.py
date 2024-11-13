@@ -13,12 +13,12 @@ print(f'Tinggi Badan : {tinggi}')
 print(f'Nilai BMI Anda : {bmi}')
 
 if bmi<18.5:
-    print("Berat bedan kurang")
+    print(f'Katagori BMI : Berat Badan Kurang' )
 elif  (bmi>= 18.5 and bmi<24.9):
-    print('Berat badan normal')
+    print(f'Katagori BMI : Berat Badan Normal')
 elif (bmi>= 25 and bmi <29.9):
-    print("Kelabihan berat badan")
+    print(f'Katagori BMI : Kelebihan Berat Badan')
 elif bmi>=30:
-    print('Obesitas')
+    print(f'Katagori BMI : Obesitas')
 
 
